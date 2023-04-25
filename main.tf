@@ -10,7 +10,7 @@ terraform {
 
 //--------------------------------------------------------------------
 // Variables
-variable "instellar_do_token" {}
+variable "instellar_hcloud_token" {}
 variable "instellar_ip_range" {}
 
 //--------------------------------------------------------------------
@@ -19,7 +19,7 @@ module "instellar" {
   source  = "upmaru/instellar/hcloud"
   version = "0.1.1"
 
-  do_token     = var.instellar_do_token
+  do_token     = var.instellar_hcloud_token
   cluster_size = 3
   cluster_name = "nebula"
   ssh_keys = [

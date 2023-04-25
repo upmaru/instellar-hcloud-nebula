@@ -11,7 +11,6 @@ terraform {
 //--------------------------------------------------------------------
 // Variables
 variable "instellar_hcloud_token" {}
-variable "instellar_ip_range" {}
 
 //--------------------------------------------------------------------
 // Modules

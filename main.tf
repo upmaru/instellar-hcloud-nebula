@@ -18,7 +18,7 @@ module "instellar" {
   source  = "upmaru/instellar/hcloud"
   version = "0.1.1"
 
-  do_token     = var.instellar_hcloud_token
+  hcloud_token     = var.instellar_hcloud_token
   cluster_size = 3
   cluster_name = "nebula"
   ssh_keys = [

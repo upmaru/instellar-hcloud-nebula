@@ -16,7 +16,7 @@ variable "instellar_hcloud_token" {}
 // Modules
 module "instellar" {
   source  = "upmaru/instellar/hcloud"
-  version = "0.1.8"
+  version = "0.1.9"
 
   hcloud_token = var.instellar_hcloud_token
   cluster_size = 1

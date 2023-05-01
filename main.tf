@@ -19,7 +19,7 @@ module "instellar" {
   version = "0.1.7"
 
   hcloud_token = var.instellar_hcloud_token
-  cluster_size = 1
+  cluster_size = 3
   cluster_name = "nebula"
   ssh_keys = [
     "zack-one-eight",
